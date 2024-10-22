@@ -11,7 +11,7 @@ Please provide detailed steps to reproduce the issue:
 What do you expect to happen?
 
 ## Actual Results
-What actually happens?
+What actually happens? 
 
 ## Environment Information
 Please provide the following information:
