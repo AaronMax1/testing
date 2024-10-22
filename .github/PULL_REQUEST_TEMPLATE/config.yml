@@ -1,0 +1,87 @@
+name: Pull Request Template
+description: Please fill out the following information to help us understand your changes.
+title: "[PR] "
+labels: enhancement
+assignees: ''
+
+body:
+  - type: input
+    id: pull-request-title
+    attributes:
+      label: "Pull Request Title"
+      description: "Please provide a brief title for your PR."
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Please provide a brief description of the changes made, including the purpose and background of the changes."
+
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: "Related Issues"
+      description: "Please reference any related issues, e.g., `Fixes #123` or `Related to #456`."
+
+  - type: checkboxes
+    id: changes-made
+    attributes:
+      label: "Changes Made"
+      options:
+        - "Change 1"
+        - "Change 2"
+        - "Change 3"
+
+  - type: textarea
+    id: steps-to-test
+    attributes:
+      label: "Steps to Test"
+      description: "Please provide detailed steps to test these changes."
+
+  - type: textarea
+    id: expected-results
+    attributes:
+      label: "Expected Results"
+      description: "Describe what you expect to see after testing."
+
+  - type: textarea
+    id: actual-results
+    attributes:
+      label: "Actual Results"
+      description: "Describe what actually happens, especially if it differs from the expected results."
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Environment Information
+        Please provide the following information:
+
+  - type: input
+    id: operating-system
+    attributes:
+      label: "Operating System"
+      description: "e.g., Windows, macOS, Linux"
+
+  - type: input
+    id: browser
+    attributes:
+      label: "Browser (if applicable)"
+      description: "e.g., Chrome, Firefox"
+
+  - type: input
+    id: version
+    attributes:
+      label: "Version"
+      description: "e.g., v1.0.0"
+
+  - type: input
+    id: branch
+    attributes:
+      label: "Branch"
+      description: "Please specify the branch from which this PR is created (e.g., feature/branch-name, bugfix/branch-name)."
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: "Additional Information"
+      description: "Add any other relevant information, screenshots, or logs here."
